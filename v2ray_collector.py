@@ -133,7 +133,7 @@ def parse_v2ray_configs(soup):
             # This needs to be refined.
             
             # Let's try finding all matches of the full URL pattern.
-            full_config_matches = re.finditer(r"(vmess|vless|ss|trojan|hysteria|hysteria2)://[a-zA-Z0-9%@:/?#&=\-\._]+", config_text)
+            full_config_matches = re.finditer(r"(vmess|vless|ss|trojan|hysteria|hysteria2|hy2)://[^\s]+", config_text)
             for match in full_config_matches:
                 configs.append(match.group(0))
     return configs
@@ -146,11 +146,15 @@ def save_configs_to_files(configs):
         os.makedirs(output_dir)
 
     # Group configs by protocol
-    grouped_configs = {"vmess": [], "vless": [], "ss": [], "hysteria": [], "trojan": [], "hysteria2": []}
+    grouped_configs = {"vmess": [], "vless": [], "ss": [], "hysteria": [], "trojan": []} # Remove hysteria2 as a separate key
     for config in configs:
         match = re.match(r"(\w+):\/\/", config)
         if match:
             protocol = match.group(1)
+            # Unify hysteria, hysteria2, and hy2 under 'hysteria'
+            if protocol in ["hysteria2", "hy2"]:
+                protocol = "hysteria"
+            
             if protocol in grouped_configs:
                 grouped_configs[protocol].append(config)
 
