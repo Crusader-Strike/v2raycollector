@@ -123,10 +123,19 @@ def parse_v2ray_configs(soup):
     for message in message_texts:
         # Find all <code> blocks within a message
         code_blocks = message.find_all("code")
+        config_pattern = re.compile(r"(vmess|vless|ss|trojan|hysteria|hysteria2)://[a-zA-Z0-9%@:/?#&=\-\._]+")
         for block in code_blocks:
             config_text = block.get_text().strip()
-            if config_text.startswith(("vmess://", "vless://", "ss://", "hysteria://", "trojan://", "hysteria2://")):
-                configs.append(config_text)
+            found_configs = config_pattern.findall(config_text)
+            # The regex returns only the protocol name, so we need to re-extract the full URL
+            # A more robust approach might be to use re.finditer and extract the full match
+            # For now, let's assume each match found by findall implies a full config URL starting from that point
+            # This needs to be refined.
+            
+            # Let's try finding all matches of the full URL pattern.
+            full_config_matches = re.finditer(r"(vmess|vless|ss|trojan|hysteria|hysteria2)://[a-zA-Z0-9%@:/?#&=\-\._]+", config_text)
+            for match in full_config_matches:
+                configs.append(match.group(0))
     return configs
 
 def save_configs_to_files(configs):
