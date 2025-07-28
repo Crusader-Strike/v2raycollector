@@ -9,6 +9,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Grant write permissions to the workflow
 
     steps:
       - name: Checkout repository
