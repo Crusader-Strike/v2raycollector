@@ -133,8 +133,12 @@ def parse_v2ray_configs(soup):
             # This needs to be refined.
             
             # Let's try finding all matches of the full URL pattern.
-            full_config_matches = re.finditer(r"(vmess|vless|ss|trojan|hysteria|hysteria2|hy2)://[^\s]+", config_text)
+            full_config_matches = re.finditer(r"(vmess|vless|ss|trojan|hysteria|hysteria2|hy2)://(.*?)(?=(vmess|vless|ss|trojan|hysteria|hysteria2|hy2)://|\s|$)", config_text)
             for match in full_config_matches:
+                # match.group(0) contains the entire matched string, including the protocol and content
+                # match.group(1) contains the protocol name (e.g., "vmess")
+                # match.group(2) contains the config content
+                # match.group(3) contains the protocol of the next config (used by lookahead)
                 configs.append(match.group(0))
     return configs
 
