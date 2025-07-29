@@ -4,7 +4,6 @@ trojan://5a5d1112-4ae7-431f-bdde-0d008fb473dd@172.67.207.27:443?path=%2F685uFbiR
 trojan://6gZh2JbfhQ@104.248.18.1:1935?security=tls&headerType=none&type=tcp&sni=x1-germany-digitalocean-v2.devefun.org#T.me%2FAsak_Vpn
 trojan://7248e825-887c-48b9-83bc-c26bc6392bf8@[2606:4700:3035::ac43:a24a]:443/?type=ws&host=xxscdfr555t6.iran.pp.ua&path=%2FctdmgeIg3NII3ibrzzKXJGy3S1&security=tls&sni=xxsCDFr555T6.iRan.pp.uA&alpn=http%2F1.1&fp=chrome#xxscdfr555t6.iran.pp.ua%20tls%20WS%20CDN%20trojan%20%C2%A7%20443%2033
 trojan://74260628090146500@stirring-parakeet.shiner427.skin:443/?type=tcp&security=tls#%F0%9F%87%AC%F0%9F%87%A7%E8%8B%B1%E5%9B%BD
-trojan://98f0c223-cb75-4faa-859e-47110b1f052b@zula.ir:2096?security=tls&type=ws&sni=iNTeRnET4EVERIeONe7.PaGes.DeV&path=/Telegram-@V2ray_Alpha/?ed=2560&host=internet4everieone7.pages.dev#t.me/entryNET/config=1838949117787765
 trojan://AXpQXM4vNh@141.227.160.167:1935?security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&headerType=none&type=tcp&sni=x2swe-ovh.devefun.net#@V2rayNG3
 trojan://Aimer@103.116.7.133:2083?path=%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw&security=tls&host=epmk.ambercc.filegear-sg.me&type=ws&sni=epmk.ambercc.filegear-sg.me#%F0%9F%92%AFT.me%2FAsak_Vpn%F0%9F%92%AF
 trojan://FiSo7J6vfS@51.68.13.106:1935?security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&headerType=none&type=tcp&sni=x1fr-ovh.devefun.net#@V2rayNG3
@@ -17,7 +16,6 @@ trojan://ZU%290ryc%24VSrG@104.17.148.22:443?path=%2Ftrg2dhGAnG15ULOP7i%3Fed%3D25
 trojan://amclubs@103.160.204.1:443?path=%2FTelegram%40V2ray_Alpha%2F%3Fed%3D2560&security=tls&host=tran.amclubstest.nyc.mn&type=ws&sni=tran.amclubstest.nyc.mn#@V2rayNG3
 trojan://bpb-trojan@104.26.4.60:443?path=%2Ftr%3Fed%3D2560&security=tls&host=zamim340.ggff.net&type=ws&sni=zamim340.ggff.net#%F0%9F%9B%A1%EF%B8%8F%20%40FreakConfig
 trojan://bpb-trojan@172.67.70.92:443?path=%2Ftr%3Fed%3D2560&security=tls&host=zamim340.ggff.net&type=ws&sni=zamim340.ggff.net#%F0%9F%87%BA%F0%9F%87%B8US%20%7C%20%40NetLume
-trojan://bpb-trojan@89.116.250.94:443?sni=bpb.my79801.com#t.me/entryNET/config=1838941567376583
 trojan://da86c6b5-a130-4bb8-a6ef-00b77b85b9e7@94.131.122.157:8443?mode=gun&security=tls&type=grpc&serviceName=grpc&sni=uk2.safecdn.site#%40V2rayNG3
 trojan://eG92F3gh09@51.15.86.181:1935?security=tls&headerType=none&type=tcp&sni=x1ams-scaleway.devefun.net#@V2rayNG3
 trojan://f282b878-8711-45a1-8c69-5564172123c1@172.67.181.173:443?path=%2F%40CanfigVipTelgram-%40CanfigVipTelgram-%40CanfigVipTelgram-%40CanfigVipTelgram-%40CanfigVipTelgram-%40CanfigVipTelgram-%40CanfigVipTelgram-%40CanfigVipTelgram-%40CanfigVipTelgram-%40CanfigVipTelgram-%40CanfigVipTelgram-%40CanfigVipTelgram-%40CanfigVipTelgram-%40CanfigVipTelgram&security=tls&host=vpn.stupidworld.web.id&fp=chrome&type=ws&sni=vpn.stupidworld.web.id#%40CanfigVip+%F0%9F%8D%95
